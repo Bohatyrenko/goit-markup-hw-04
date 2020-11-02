@@ -29,6 +29,7 @@ p {
 }
 
 body {
+  width: 1600px;
   font-family: "Roboto", sans-serif;
   background-color: var(--background-color);
   margin: 0px;
@@ -75,6 +76,8 @@ img {
 
 .container {
   width: 1169px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   align-content: center;
@@ -155,6 +158,9 @@ img {
 /* hero */
 .hero {
   background-color: var(--second-background-color);
+  background-image: url(/images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 200px 0;
 }
 
