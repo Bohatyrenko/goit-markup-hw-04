@@ -207,8 +207,8 @@ img {
 }
 
 .phone-svg {
-  width: 15px;
-  height: 10px;
+  width: 10px;
+  height: 15px;
   margin-right: 10px;
 }
 
@@ -650,9 +650,6 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
-
-
 
 .item-social:not(:last-child) {
   margin-right: 10px;
