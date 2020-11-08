@@ -30,7 +30,6 @@ p {
 }
 
 body {
-  width: 1600px;
   font-family: "Roboto", sans-serif;
   background-color: var(--background-color);
   margin: 0px;
@@ -76,7 +75,7 @@ img {
 }
 
 .container {
-  width: 1169px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -164,7 +163,7 @@ img {
   display: inline-flex;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  color: var(--main-text-color);
+  color: var(--second-text-color);
   font-style: normal;
   font-size: 14px;
   font-weight: 500;
@@ -181,6 +180,7 @@ img {
 .mail-svg {
   width: 15px;
   height: 10px;
+  fill: var(--second-text-color);
   margin-right: 10px;
 }
 
@@ -193,7 +193,7 @@ img {
   display: inline-flex;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  color: var(--main-text-color);
+  color: var(--second-text-color);
   font-style: normal;
   font-size: 14px;
   font-weight: 500;
@@ -209,6 +209,7 @@ img {
 .phone-svg {
   width: 10px;
   height: 15px;
+  fill: var(--second-text-color);
   margin-right: 10px;
 }
 
@@ -225,8 +226,7 @@ img {
 /* !!!Index!!! */
 /* hero */
 .hero {
-  background-color: rgba(47, 48, 58, 0.4);
-  background-image: url(/images/hero-img.jpg);
+  background-image: radial-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   padding: 200px 0;
