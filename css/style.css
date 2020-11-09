@@ -219,10 +219,6 @@ img {
 }
 
 
-
-
-
-
 /* !!!Index!!! */
 /* hero */
 .hero {
@@ -614,6 +610,10 @@ img {
   background-color: var(--background-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+}
+
+.portfolio-link {
+  display: block;
 }
 
 .portfolio-bottom {
